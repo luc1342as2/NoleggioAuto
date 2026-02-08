@@ -22,4 +22,3 @@ HTML5 → Structure of the website
 CSS3 → Styling and responsive design
 
 JavaScript (Vanilla) → Interactivity and form validation
->>>>>>> b0c7a030573e332588048fc7ace7a6e71aa0610a
