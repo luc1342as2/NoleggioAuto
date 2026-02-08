@@ -1,0 +1,750 @@
+<!-- Lucas Ghigli -->
+<!-- Car Rental website -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7"
+      crossorigin="anonymous"
+      referrerpolicy="no-reference"/>
+
+    <title>Car Rental</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav>
+      <a href="index.html" class="brand">
+        <h1><b class="accent">FASTRIDES</b></h1>
+      </a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="collection.html">Cars</a>
+        <a href="about.html">About</a>
+        <a href="review.html">Reviews</a>
+      </div>
+
+      <button class="btn-2" onclick="window.location.href='contact.html'">
+        Get Started
+      </button>
+
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Collection Start -->
+    <section class="collection" id="collection-page">
+      <!-- Sedans -->
+      <div class="collection-category">
+        <h1>Sedans</h1>
+        <hr />
+        <div class="collection-container">
+          <!-- Car #1 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-2.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>AUDI RS 6</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #2 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-3.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>BMW M2 GT</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #3 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-13.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>80.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Alberta</h6>
+                </div>
+              </div>
+              <h2>AUDI RS 5</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #5 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-5.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Quebec City</h6>
+                </div>
+              </div>
+              <h2>ROLLS ROYCE PHANTOM DROPHEAD</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #6 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-18.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>100.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>British Columbia</h6>
+                </div>
+              </div>
+              <h2>BENTLEY CONTINENTAL GT</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #8 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/tesla.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>100.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>British Columbia</h6>
+                </div>
+              </div>
+              <h2>TESLA MODEL S</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sports -->
+      <div class="collection-category">
+        <h1>Sports Car</h1>
+        <hr/>
+        <div class="collection-container">
+          <!-- Car #1 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-1.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Manitoba</h6>
+                </div>
+              </div>
+              <h2>MERCEDES-BENZ AMG GT R</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #2 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-6.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Manitoba</h6>
+                </div>
+              </div>
+              <h2>LAMBORGHINI GALLARDO 50TH ANNIVERSARIO</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #3 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-7.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>70.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Nova Scotia</h6>
+                </div>
+              </div>
+              <h2>TOYOTA GR SUPRA</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #4 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-8.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Nova Scotia</h6>
+                </div>
+              </div>
+              <h2>NISSAN GT-R</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #5 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-9.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>DODGE CHALLENGER ST</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #6 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-16.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>120.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Alberta</h6>
+                </div>
+              </div>
+              <h2>LAMBORGHINI AVENTADOR SVJ</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #7 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-17.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>80.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Manitoba</h6>
+                </div>
+              </div>
+              <h2>CHEVROLET CORVETTE ZR1 CONVERTIBLE</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #8 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-14.jpg" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>150.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Quebec City</h6>
+                </div>
+              </div>
+              <h2>FERRARI F90 STRADALE</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #9 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-20.jpg" alt="Porsche 911 GT3" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>130.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>PORSCHE 911 GT3</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUV Car -->
+      <div class="collection-category">
+        <h1>SUV Cars</h1>
+        <hr/>
+        <div class="collection-container">
+          <!-- Car #1 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-15.jpg" alt="Mercedes-Benz AMG G63 S" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>80.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Quebec City</h6>
+                </div>
+              </div>
+              <h2>MERCEDES-BENZ AMG G63 S</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #2 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-10.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>80.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>British Columbia</h6>
+                </div>
+              </div>
+              <h2>RANGE ROVER SV</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #3 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-11.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Nova Scotia</h6>
+                </div>
+              </div>
+              <h2>LAMBORGHINI URUS S</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Car #3 -->
+           <!--
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/g-wagon.webp" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>100.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>MERCEDES-BENZ  AMG G-CLASS (G WAGON)</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+            -->
+
+          <!-- Car #4 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/aston-martin.webp" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>80.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Alberta</h6>
+                </div>
+              </div>
+              <h2>ASTON MARTIN DBX</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #5 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-22.webp" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>90.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Manitoba</h6>
+                </div>
+              </div>
+              <h2>PORSCHE CAYENNE TURBO GT</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #6 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-19.jpg" alt="BMW X5 M" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>95.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>British Columbia</h6>
+                </div>
+              </div>
+              <h2>BMW X5 M</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #7 -->
+           <!--
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-2.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>AUDI RS 6</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+             -->
+
+          <!-- Car #7 -->
+           <!--
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-2.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>AUDI RS 6</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+            -->
+
+          <!-- Car #8 -->
+           <!--
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-2.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>AUDI RS 6</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+            -->
+        <!-- Car #6 -->
+        <!--
+        <div class="collection-car-item" id="collection-car-item-page">
+            <img src="images/img/cars/car-2.png" alt="img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h3>110.00$</h3>
+                  <h6>Per Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Ontario</h6>
+                </div>
+              </div>
+              <h2>AUDI RS 6</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+              </button>
+            </div>
+          </div>
+           -->
+        </div>
+      </div>
+    </section>
+    <!-- Collection End -->
+
+    <!-- Footer Start -->
+    <footer class="index-footer">
+      <div class="callout">
+        <h2>Let's drive with FastRides Today!</h2>
+        <p class="callout-description">
+          Need assistance or ready to reserve your wheels? Contact us now for
+          prompt service and effortless booking!
+        </p>
+        <div class="callout-buttons">
+          <button
+            class="btn-2 btn-callout"
+            onclick="window.location.href='collection.html'">
+            <p>Check Our Cars</p>
+            <i class="fa-solid"></i>
+          </button>
+
+          <button
+            class="btn-2 btn-callout btn-callout-black"
+            onclick="window.location.href='contact.html'">
+            <p>Contact Us</p>
+            <i class="fa-solid"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="index.html" class="footer-brand"><b class="accent">FASTRIDES</b></a>
+        <p>&copy; 2024 Lucas Ghigli. All rights reserved.</p>
+        <div class="footer-icons">
+          <img
+            src="images/img/linkedin.png"
+            class="footer-icon"
+            alt="icon-1"
+            onclick="location.href='https://www.linkedin.com/in/lucas-g-10a0071aa/'"/>
+
+          <img
+            src="images/img/github.png"
+            class="footer-icon"
+            alt="icon-2"
+            onclick="location.href='https://github.com/luc1342as2?tab=repositories'"/>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="script.js"></script>
+  </body>
+</html>
